@@ -1,4 +1,4 @@
-/* Main Styles */
+/* Main Styles --------------*/
 body {
     font-family: 'Merriweather', serif;
     color: #672d1e;
@@ -19,9 +19,13 @@ footer {
     text-align: center;
 }
 
+/* Temporary to see footer size --------------*/
+footer {
+    border: 1px solid red;
+}
 
 
-/* Media Queries */
+/* Media Queries --------------*/
 
 @media (min-width: 768px) {
     
