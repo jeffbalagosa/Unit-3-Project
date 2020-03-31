@@ -29,5 +29,8 @@ hr {
 /* Media Queries --------------*/
 
 @media (min-width: 768px) {
-    
+    .container {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
