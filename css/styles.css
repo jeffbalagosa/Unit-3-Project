@@ -20,7 +20,9 @@ footer {
 }
 
 hr {
-    height: 14px;
+    height: 4px;
+    border-left: 0;
+    border-right: 0;
     border-top: 8px solid #672d1e;
     border-bottom: 4px solid #672d1e;
 }
