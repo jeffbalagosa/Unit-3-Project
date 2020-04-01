@@ -25,12 +25,11 @@ hr {
     border-bottom: 4px solid #672d1e;
 }
 
-form {
+.bottom-border {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
     border-bottom: 4px solid #672d1e;
-}
-
-fieldset {
-    border: 0;
 }
 
 
