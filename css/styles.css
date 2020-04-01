@@ -25,6 +25,10 @@ hr {
     border-bottom:4px solid #672d1e;
   }
 
+  form {
+    border-bottom:4px solid #672d1e; 
+  }
+
 
 /* Media Queries --------------*/
 
