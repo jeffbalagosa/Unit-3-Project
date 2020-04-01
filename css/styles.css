@@ -34,6 +34,10 @@ hr {
     border-bottom: 4px solid #672d1e;
 }
 
+.clear-borders {
+    border: 0;
+}
+
 
 /* Media Queries --------------*/
 
