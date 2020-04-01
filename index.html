@@ -27,20 +27,33 @@
         <form>
             <fieldset class="bottom-border">
                 <h2>Contact Information</h2>
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="user_name" placeholder="Required">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="user_email" placeholder="Required">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="user_phone">
-                <label for="street">Street Address</label>
-                <input type="text" id="street" name="user_street">
-                <label for="city">City</label>
-                <input type="city" id="city" name="user_city">
-                <label for="state">State</label>
-
+                <table>
+                    <tr>
+                        <td><label for="name">Full Name</label></td>
+                        <td><input type="text" id="name" name="user_name" placeholder="Required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email Address</label></td>
+                        <td><input type="email" id="email" name="user_email" placeholder="Required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone Number</label></td>
+                        <td><input type="tel" id="phone" name="user_phone"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="street">Street Address</label></td>
+                        <td><input type="text" id="street" name="user_street"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">City</label></td>
+                        <td><input type="city" id="city" name="user_city"></td>
+                    </tr>
+                
+                <tr>
+                <td><label for="state">State</label></td>
                 <!-- Got state dropdown code from here. https://snipplr.com/view/27311 There's no way I was writing this out manually.  Lol! -->
-                <select name="state">
+                <td>
+                    <select name="state">
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -93,9 +106,13 @@
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
                 </select>
-
-                <label for="zip">Zip Code</label>
-                <input type="text" id="zip" name="user_zip">
+            </td>
+            </tr>
+            <tr>
+                <td><label for="zip">Zip Code</label></td>
+                <td><input type="text" id="zip" name="user_zip"></td>
+            </tr>  
+            </table>
             </fieldset>
 
             <fieldset class="clear-borders">
@@ -124,7 +141,7 @@
         </footer>
 
     </div>
-    
+
 </body>
 
 </html>
