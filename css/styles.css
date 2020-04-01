@@ -42,6 +42,10 @@ hr {
     display: flex;
 }
 
+input[placeholder] {
+    text-align: right;
+}
+
 
 /* Media Queries --------------*/
 
