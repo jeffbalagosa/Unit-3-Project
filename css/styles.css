@@ -42,6 +42,11 @@ hr {
     display: flex;
 }
 
+input,
+select {
+    margin: 0 auto;
+}
+
 input[placeholder] {
     text-align: right;
 }
