@@ -51,7 +51,24 @@ select {
 
 input[placeholder] {
     text-align: right;
+    color: lightgrey;
 }
+
+select {
+    color: #672d1e;
+  }
+  
+  select:focus {
+    color: lightgrey;
+  }
+
+  option {
+    color: #672d1e;
+  }
+
+  option:first-of-type {
+    color: lightgrey;
+  }
 
 /* .rl-match is used to match the default left and right space of the fieldset --------------*/
 .rl-match,
