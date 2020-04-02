@@ -46,13 +46,13 @@ input[placeholder] {
     text-align: right;
 }
 
-/* .pad-mar-match is used to match the default padding and margins of the fieldset --------------*/
-.pad-mar-match,
+/* .rl-match is used to match the default left and right space of the fieldset --------------*/
+.rl-match,
 fieldset {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 2px;
-    margin-right: 2px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 
