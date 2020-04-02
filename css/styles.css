@@ -46,6 +46,15 @@ input[placeholder] {
     text-align: right;
 }
 
+/* .pad-mar-match is used to match the default padding and margins of the fieldset --------------*/
+.pad-mar-match,
+fieldset {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
 
 /* Media Queries --------------*/
 
