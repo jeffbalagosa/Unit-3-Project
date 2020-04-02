@@ -44,6 +44,8 @@ hr {
 
 input,
 select {
+    width: 98%;
+    height: 3em;
     margin: 0 auto;
 }
 
