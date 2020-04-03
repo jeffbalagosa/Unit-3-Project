@@ -41,7 +41,6 @@ hr {
 label {
   display: inline-block;
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 
 input[type="text"],
@@ -126,6 +125,11 @@ button {
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
   display: inline-block;
+}
+
+fieldset:last-of-type label:nth-of-type(5),
+fieldset:last-of-type label:last-of-type {
+  margin-top: 1em;
 }
 
 /* place this class in a parent to center children.  Also make sure children are set to inline-block. --------------*/
