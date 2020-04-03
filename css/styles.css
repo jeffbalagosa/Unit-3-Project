@@ -9,7 +9,7 @@ h1 {
     color: white;
     margin-top: 0;
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -45,14 +45,8 @@ label {
 
 input[type="text"],
 input[type="password"],
-input[type="date"],
-input[type="datetime"],
 input[type="email"],
-input[type="number"],
-input[type="search"],
 input[type="tel"],
-input[type="time"],
-input[type="url"],
 textarea,
 select {
   background: rgba(255,255,255,0.1);
@@ -80,6 +74,7 @@ select:focus {
 
 select {
     color: #672d1e;
+    width: 98%;
   }
   
   select:focus {
@@ -92,6 +87,17 @@ select {
 
   option:first-of-type {
     color: darkslategray;
+  }
+
+  legend,
+  h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  legend {
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 
 /* .rl-match is used to match the default left and right space of the fieldset --------------*/
