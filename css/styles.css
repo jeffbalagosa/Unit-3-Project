@@ -39,8 +39,9 @@ hr {
 }
 
 label {
-    display: block;
+    display: inline-block;
     margin-bottom: 8px;
+    margin-top: 8px;
   }
 
 input[type="text"],
@@ -99,6 +100,18 @@ select {
     padding-top: 1em;
     padding-bottom: 1em;
   }
+
+  input,
+  select,
+  textarea {
+    border-radius: 5px;
+  }
+
+  footer {
+    font-size: .8em;
+    font-style: italic;
+}
+  
 
 /* .rl-match is used to match the default left and right space of the fieldset --------------*/
 .rl-match,
