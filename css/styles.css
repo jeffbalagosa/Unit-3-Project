@@ -167,4 +167,15 @@ fieldset {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  padding-left: 0;
+}
+
+label[for="city"] {
+  padding-right: 1px;
+}
 }
