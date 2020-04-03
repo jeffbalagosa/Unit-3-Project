@@ -167,13 +167,4 @@ fieldset {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
-  label[for="street"] {
-    padding-right: 14px;
-}
-
-label[for="city"] {
-  padding-right: 58px;
-}
-
 }
