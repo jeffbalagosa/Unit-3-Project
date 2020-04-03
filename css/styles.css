@@ -160,6 +160,7 @@ fieldset {
   .container {
     width: 50%;
     margin: 0 auto;
+    border: 1px solid red;
   }
   
   .flex {
@@ -179,7 +180,13 @@ label[for="city"] {
   padding-right: 54px;
 }
 
-label[for="state"] {
-  padding-right: 1px;
+label[for="state"],
+label[for="zip"] {
+  padding-right: 30px;
+}
+
+select {
+  width: 94%;
+  padding-right: 40px;
 }
 }
