@@ -1,48 +1,48 @@
 /* Main Styles --------------*/
 body {
-    font-family: 'Merriweather', serif;
-    color: #672d1e;
+  font-family: 'Merriweather', serif;
+  color: #672d1e;
 }
 
 h1 {
-    background: #672d1e;
-    color: white;
-    margin-top: 0;
-    text-transform: uppercase;
-    font-size: 1.3em;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  background: #672d1e;
+  color: white;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 header,
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 hr {
-    height: 4px;
-    border-left: 0;
-    border-right: 0;
-    border-top: 8px solid #672d1e;
-    border-bottom: 4px solid #672d1e;
+  height: 4px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 8px solid #672d1e;
+  border-bottom: 4px solid #672d1e;
 }
 
 .bottom-border {
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
-    border-bottom: 4px solid #672d1e;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 4px solid #672d1e;
 }
 
 .clear-borders {
-    border: 0;
+  border: 0;
 }
 
 label {
-    display: inline-block;
-    margin-bottom: 8px;
-    margin-top: 8px;
-  }
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
 
 input[type="text"],
 input[type="password"],
@@ -50,7 +50,7 @@ input[type="email"],
 input[type="tel"],
 textarea,
 select {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   border: 0;
   font-size: 16px;
   height: auto;
@@ -59,7 +59,7 @@ select {
   padding: 15px;
   width: 89%;
   background-color: #e8eeef;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   margin-bottom: 30px;
 }
 
@@ -70,64 +70,64 @@ select:focus {
 
 ::placeholder {
   text-align: right;
-    color: darkslategray;
+  color: darkslategray;
 }
 
 select {
-    color: #672d1e;
-    width: 98%;
-  }
-  
-  select:focus {
-    color: darkslategray;
-  }
-
-  option {
-    color: #672d1e;
-  }
-
-  option:first-of-type {
-    color: darkslategray;
-  }
-
-  legend,
-  h2 {
-    font-size: 1.2em;
-    font-weight: bold;
-  }
-
-  legend {
-    padding-top: 1em;
-    padding-bottom: 1em;
-  }
-
-  input,
-  select,
-  textarea {
-    border-radius: 5px;
-  }
-
-  footer {
-    font-size: .8em;
-    font-style: italic;
+  color: #672d1e;
+  width: 98%;
 }
-  
+
+select:focus {
+  color: darkslategray;
+}
+
+option {
+  color: #672d1e;
+}
+
+option:first-of-type {
+  color: darkslategray;
+}
+
+legend,
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+legend {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+input,
+select,
+textarea {
+  border-radius: 5px;
+}
+
+footer {
+  font-size: .8em;
+  font-style: italic;
+}
+
 
 /* .rl-match is used to match the default left and right space of the fieldset --------------*/
 .rl-match,
 fieldset {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 12px;
-    margin-right: 12px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 
 /* Media Queries --------------*/
 
 @media (min-width: 768px) {
-    .container {
-        width: 50%;
-        margin: 0 auto;
-    }
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
