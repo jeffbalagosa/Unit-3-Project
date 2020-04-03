@@ -63,7 +63,8 @@ select {
 }
 
 input:focus,
-select:focus {
+select:focus,
+textarea:focus {
   border: 4px dashed #71afd7;
 }
 
