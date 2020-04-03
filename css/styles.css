@@ -176,6 +176,10 @@ input[type="tel"] {
 }
 
 label[for="city"] {
+  padding-right: 54px;
+}
+
+label[for="state"] {
   padding-right: 1px;
 }
 }
