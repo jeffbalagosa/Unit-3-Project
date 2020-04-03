@@ -38,10 +38,6 @@ hr {
     border: 0;
 }
 
-.flex-container {
-    display: flex;
-}
-
 label {
     display: block;
     margin-bottom: 8px;
