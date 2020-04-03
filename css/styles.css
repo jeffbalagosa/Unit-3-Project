@@ -116,16 +116,21 @@ footer {
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background-color: #4fc94b;
+  background-color: #23c58f;
   text-align: center;
   font-style: normal;
   border-radius: 5px;
   width: 92%;
-  border: 1px solid #3ac162;
+  border: 1px solid #23c58f;
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
   display: inline-block;
+}
+
+button:active {
+  background-color: darkgreen;
+  border: darkgreen;
 }
 
 fieldset:last-of-type label:nth-of-type(5),
