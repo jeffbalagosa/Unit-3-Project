@@ -161,4 +161,22 @@ fieldset {
     width: 50%;
     margin: 0 auto;
   }
+<<<<<<< HEAD
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  label[for="street"] {
+    padding-right: 14px;
+}
+
+label[for="city"] {
+  padding-right: 58px;
+}
+
+=======
+>>>>>>> parent of 692bf32... flexed first fieldset for media query
 }
