@@ -159,6 +159,7 @@ fieldset {
 @media (min-width: 768px) {
   .container {
     width: 50%;
+    max-width: 408px;
     margin: 0 auto;
     border: 1px solid red;
   }
