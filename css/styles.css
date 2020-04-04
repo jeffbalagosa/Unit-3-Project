@@ -118,6 +118,7 @@ fieldset {
     border: 0;
 }
 
+/*Me being extra.  lol!  Itacized placeholder text wasn't required, but I really felt it was neccessary.  Got code from here: https://stackoverflow.com/questions/27644314/how-to-make-only-placeholder-italics-in-input--------------*/
 ::-webkit-input-placeholder {
   font-style: italic;
 }
