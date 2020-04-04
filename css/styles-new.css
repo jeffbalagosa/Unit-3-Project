@@ -63,3 +63,10 @@ textarea:focus {
 .label-spacing {
     margin-top: 16px;
 }
+
+input,
+select,
+textarea {
+    background-color: lightgray;
+    border-radius: 5px;
+}
