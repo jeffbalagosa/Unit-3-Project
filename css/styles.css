@@ -190,4 +190,8 @@ fieldset {
     width: 94%;
     padding-right: 40px;
   }
+
+  fieldset:first-of-type label {
+    margin-top: 14px;
+  }
 }
