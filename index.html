@@ -17,7 +17,7 @@
     <header>
         <h1>The Code Review</h1>
         <fieldset>
-            <h2>Sign Up For Our Newsletter</h2>
+            <h2>Signup For Our Newsletter</h2>
             <p>Get the latest news on how your code is doing right in your inbox</p>
             <hr>
         </fieldset>
@@ -31,19 +31,19 @@
                 <legend>Contact Information</legend>
                 <ul>
                     <li><label for="name">Full Name</label></li>
-                    <li><input type="text" id="name" name="user_name" placeholder="Required"></li>
+                    <li><input class="field-type1" type="text" id="name" name="user_name" placeholder="Required"></li>
                     <li><label for="email">Email Address</label></li>
-                    <li><input type="email" id="email" name="user_email" placeholder="Required"></li>
+                    <li><input class="field-type1" type="email" id="email" name="user_email" placeholder="Required"></li>
                     <li><label for="phone">Phone Number</label></li>
-                    <li><input type="tel" id="phone" name="user_phone"></li>
+                    <li><input class="field-type1" type="tel" id="phone" name="user_phone"></li>
                     <li><label for="street">Street Address</label></li>
-                    <li><input type="text" id="street" name="user_street"></li>
+                    <li><input class="field-type1" type="text" id="street" name="user_street"></li>
                     <li><label for="city">City</label></li>
-                    <li><input type="text" id="city" name="user_city"></li>
+                    <li><input class="field-type1" type="text" id="city" name="user_city"></li>
 
                     <li><label for="state">State</label></li>
                     <!-- Got state dropdown code from here. https://snipplr.com/view/27311 There's no way I was writing this out manually.  Lol! -->
-                    <li><select name="state">
+                    <li><select class="field-type1" name="state">
                             <option value="">Choose State</option>
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
@@ -99,7 +99,7 @@
                         </select></li>
 
                     <li><label for="zip">Zip Code</label></li>
-                    <li><input type="text" id="zip" name="user_zip"></li>
+                    <li><input class="field-type2" type="text" id="zip" name="user_zip"></li>
                 </ul>
                 <hr class="hr2">
             </fieldset>
@@ -122,8 +122,8 @@
                 <input type="radio" id="ptext-email" value="ptext_format" name="user_email_pref"><label
                     for="ptext-email">Plain Text</label><br>
                 <label for="other">Other topics you'd like to hear about</label>
-                <textarea id="other" name="interest_other"></textarea>
-                <button type="submit">Sign Up!</button>
+                <textarea class="field-type1" id="other" name="interest_other"></textarea>
+                <button class="field-type1" type="submit">Sign Up!</button>
             </fieldset>
 
         </form>
