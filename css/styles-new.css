@@ -96,7 +96,8 @@ button:active {
 }
 
 legend,
-h2 {
+h2,
+button {
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -113,6 +114,7 @@ fieldset {
 @media (min-width: 768px) {
     .wrap {
         width: 50%;
+        max-width: 600px;
         margin: 0 auto;
     }
 
