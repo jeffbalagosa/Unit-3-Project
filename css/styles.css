@@ -108,6 +108,10 @@ textarea {
   border-radius: 5px;
 }
 
+textarea {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 footer {
   font-size: .8em;
   font-style: italic;
@@ -198,6 +202,10 @@ fieldset {
     padding-right: 30px;
   }
 
+  label[for="zip"] {
+    margin-left: 16px;
+  }
+
   
 
   select {
@@ -205,6 +213,7 @@ fieldset {
     padding-right: 40px;
     padding-top: 8px;
     padding-bottom: 8px;
+    font-size: 85%;
   }
 
   fieldset:first-of-type label {
