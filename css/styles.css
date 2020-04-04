@@ -1,162 +1,167 @@
 /* Main Styles --------------*/
 body {
-    font-family: 'Merriweather', serif;
-    font-size: 85%;
-    color: #672d1e;
-}
-
-form {
-    background-color: #e0d2cb;
+  font-family: 'Merriweather', serif;
+  font-size: 85%;
+  color: #672d1e;
 }
 
 h1 {
-    background: #672d1e;
-    color: white;
-    margin-top: 0;
-    text-transform: uppercase;
-    font-size: 1.3em;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  background: #672d1e;
+  color: white;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 header,
 footer,
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 hr {
-    height: 4px;
-    border-left: 0;
-    border-right: 0;
-    border-top: 8px solid #672d1e;
-    border-bottom: 4px solid #672d1e;
+  height: 4px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 8px solid #672d1e;
+  border-bottom: 4px solid #672d1e;
 }
 
 .hr2 {
-    height: 0;
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    border-bottom: 4px solid #672d1e;
+  height: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 4px solid #672d1e;
 }
 
 .field-type1 {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 16px;
 }
 
 .field-type2 {
-    box-sizing: border-box;
-    width: 50%;
-    padding: 16px;
-}
-
-input,
-select,
-textarea {
-    border: 0;
-    outline: 0;
-    background-color: #131626;
-    color: white;
-    border-radius: 5px;
-    transition: border 1s;
-}
-
-input:focus,
-select:focus,
-textarea:focus {
-    border: 4px dashed lightyellow;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 16px;
 }
 
 ::placeholder {
-    text-align: right;
-    color: lightgray;
+  text-align: right;
+  color: lightgray;
 }
 
 textarea::placeholder {
-    line-height: 34px;
+  line-height: 34px;
 }
 
 .field-spacing {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .label-spacing {
-    margin-bottom: .5em;
+  margin-bottom: .5em;
 }
 
 button {
-    padding: 19px 39px 18px 39px;
-    color: #FFF;
-    background-color: #23c58f;
-    border-radius: 5px;
-    border: 1px solid #23c58f;
-    border-width: 1px 1px 3px;
-    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-    margin-bottom: 10px;
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #23c58f;
+  border-radius: 5px;
+  border: 1px solid #23c58f;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
 }
 
 button:active {
-    background-color: darkgreen;
-    border: darkgreen;
+  background-color: darkgreen;
+  border: darkgreen;
 }
 
 legend,
 h2,
 button {
-    font-size: 1.5em;
-    font-weight: bold;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 legend {
-    margin-bottom: .5em;
+  margin-bottom: .5em;
 }
 
 fieldset {
-    border: 0;
+  border: 0;
 }
 
-/*Me being extra.  lol!  Itacized placeholder text wasn't required, but I really felt it was neccessary.  Got code from here: https://stackoverflow.com/questions/27644314/how-to-make-only-placeholder-italics-in-input--------------*/
+/* Exceeds Expectations. Uses CSS transitions for focus states. --------------*/
+input,
+select,
+textarea {
+  border: 0;
+  outline: 0;
+  background-color: #131626;
+  color: white;
+  border-radius: 5px;
+  transition: border 1s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border: 4px dashed lightyellow;
+}
+
+/* Exceeds Expectations. Change the background color for at least ONE of the main sections of the site. --------------*/
+form {
+  background-color: #e0d2cb;
+}
+
+/*Itacized placeholder text wasn't required, but I really felt it was neccessary.  Got code from here: https://stackoverflow.com/questions/27644314/how-to-make-only-placeholder-italics-in-input --------------*/
 ::-webkit-input-placeholder {
   font-style: italic;
 }
+
 :-moz-placeholder {
-  font-style: italic;  
+  font-style: italic;
 }
+
 ::-moz-placeholder {
-  font-style: italic;  
+  font-style: italic;
 }
-:-ms-input-placeholder {  
-  font-style: italic; 
+
+:-ms-input-placeholder {
+  font-style: italic;
 }
 
 /* Media Query --------------*/
 @media (min-width: 768px) {
-    .wrap {
-        width: 50%;
-        max-width: 600px;
-        margin: 0 auto;
-    }
+  .wrap {
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
 
-    .flex {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-    fieldset:first-of-type .field-type1,
-    fieldset:first-of-type .field-type2 {
-        padding: .5em;
-    }
+  fieldset:first-of-type .field-type1,
+  fieldset:first-of-type .field-type2 {
+    padding: .5em;
+  }
 
-    li:nth-of-type(2n+1) {
-        width: 30%;
-        line-height: 32.094px;
-    }
+  li:nth-of-type(2n+1) {
+    width: 30%;
+    line-height: 32.094px;
+  }
 
-    li:nth-of-type(2n+2) {
-        width: 70%;
-    }
+  li:nth-of-type(2n+2) {
+    width: 70%;
+  }
 }
