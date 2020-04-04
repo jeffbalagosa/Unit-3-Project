@@ -123,7 +123,7 @@ button {
   width: 92%;
   border: 1px solid #23c58f;
   border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
   margin-bottom: 10px;
   display: inline-block;
 }
@@ -162,31 +162,31 @@ fieldset {
     margin: 0 auto;
     border: 1px solid red;
   }
-  
+
   .flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="tel"] {
-  padding-left: 0;
-}
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"] {
+    padding-left: 0;
+  }
 
-label[for="city"] {
-  padding-right: 54px;
-}
+  label[for="city"] {
+    padding-right: 54px;
+  }
 
-label[for="state"],
-label[for="zip"] {
-  padding-right: 30px;
-}
+  label[for="state"],
+  label[for="zip"] {
+    padding-right: 30px;
+  }
 
-select {
-  width: 94%;
-  padding-right: 40px;
-}
+  select {
+    width: 94%;
+    padding-right: 40px;
+  }
 }
