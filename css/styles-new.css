@@ -52,7 +52,7 @@ hr {
 input:focus,
 select:focus,
 textarea:focus {
-    border: 4px dashed #71afd7;
+    border: 4px dashed lightyellow;
 }
 
 ::placeholder {
@@ -61,12 +61,20 @@ textarea:focus {
 }
 
 .label-spacing {
-    margin-top: 16px;
+    margin-top: 1em;
+}
+
+.label-spacing2 {
+    margin-top: .5em;
 }
 
 input,
 select,
 textarea {
-    background-color: lightgray;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    background-color: darkgray;
+    color: white;
     border-radius: 5px;
 }
