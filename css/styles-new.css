@@ -105,6 +105,10 @@ legend {
     margin-bottom: .5em;
 }
 
+fieldset {
+    border: 0;
+}
+
 /* Media Query --------------*/
 @media (min-width: 768px) {
     .wrap {
