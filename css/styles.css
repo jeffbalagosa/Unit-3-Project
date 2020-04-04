@@ -1,226 +1,148 @@
 /* Main Styles --------------*/
 body {
-  font-family: 'Merriweather', serif;
-  color: #672d1e;
+    font-family: 'Merriweather', serif;
+    font-size: 85%;
+    color: #672d1e;
+}
+
+form {
+    background-color: #e0d2cb;
 }
 
 h1 {
-  background: #672d1e;
-  color: white;
-  margin-top: 0;
-  text-transform: uppercase;
-  font-size: 1.3em;
-  padding-top: 25px;
-  padding-bottom: 25px;
+    background: #672d1e;
+    color: white;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 header,
-footer {
-  text-align: center;
+footer,
+h1 {
+    text-align: center;
 }
 
 hr {
-  height: 4px;
-  border-left: 0;
-  border-right: 0;
-  border-top: 8px solid #672d1e;
-  border-bottom: 4px solid #672d1e;
+    height: 4px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 8px solid #672d1e;
+    border-bottom: 4px solid #672d1e;
 }
 
-.bottom-border {
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-  border-bottom: 4px solid #672d1e;
+.hr2 {
+    height: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 4px solid #672d1e;
 }
 
-.clear-borders {
-  border: 0;
+.field-type1 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px;
 }
 
-label {
-  display: inline-block;
-  margin-bottom: 8px;
-}
-
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="tel"],
-textarea,
-select {
-  background: rgba(255, 255, 255, 0.1);
-  border: 0;
-  font-size: 16px;
-  height: auto;
-  margin: 0;
-  outline: 0;
-  padding: 15px;
-  width: 89%;
-  background-color: #e8eeef;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
-  margin-bottom: 30px;
-}
-
-input:focus,
-select:focus,
-textarea:focus {
-  border: 4px dashed #71afd7;
-}
-
-::placeholder {
-  text-align: right;
-  color: darkslategray;
-}
-
-select {
-  color: #672d1e;
-  width: 98%;
-}
-
-select:focus {
-  color: darkslategray;
-}
-
-option {
-  color: #672d1e;
-}
-
-option:first-of-type {
-  color: darkslategray;
-}
-
-legend,
-h2,
-button {
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-legend {
-  padding-top: 1em;
-  padding-bottom: 1em;
+.field-type2 {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 16px;
 }
 
 input,
 select,
 textarea {
-  border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background-color: #131626;
+    color: white;
+    border-radius: 5px;
+    transition: border 1s;
 }
 
-textarea {
-  border: 1px solid rgba(255, 255, 255, 0.1);
+input:focus,
+select:focus,
+textarea:focus {
+    border: 4px dashed lightyellow;
 }
 
-footer {
-  font-size: .8em;
-  font-style: italic;
+::placeholder {
+    text-align: right;
+    color: lightgray;
+}
+
+textarea::placeholder {
+    line-height: 34px;
+}
+
+.field-spacing {
+    margin-bottom: 1em;
+}
+
+.label-spacing {
+    margin-bottom: .5em;
 }
 
 button {
-  padding: 19px 39px 18px 39px;
-  color: #FFF;
-  background-color: #23c58f;
-  text-align: center;
-  font-style: normal;
-  border-radius: 5px;
-  width: 92%;
-  border: 1px solid #23c58f;
-  border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-  margin-bottom: 10px;
-  display: inline-block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #23c58f;
+    border-radius: 5px;
+    border: 1px solid #23c58f;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    margin-bottom: 10px;
 }
 
 button:active {
-  background-color: darkgreen;
-  border: darkgreen;
+    background-color: darkgreen;
+    border: darkgreen;
 }
 
-fieldset:last-of-type label:nth-of-type(5),
-fieldset:last-of-type label:last-of-type {
-  margin-top: 1em;
+legend,
+h2,
+button {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
-input[id="zip"] {
-  width: 102px;
-  margin-right: 118px;
-  padding-right: 10px;
-  padding-left: 25px;
+legend {
+    margin-bottom: .5em;
 }
 
-/* place this class in a parent to center children.  Also make sure children are set to inline-block. --------------*/
-.center {
-  text-align: center;
-}
-
-
-/* .rl-match is used to match the default left and right space of the fieldset --------------*/
-.rl-match,
 fieldset {
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 12px;
-  margin-right: 12px;
+    border: 0;
 }
 
-
-/* Media Queries --------------*/
-
+/* Media Query --------------*/
 @media (min-width: 768px) {
-  body {
-    font-size: 85%;
-  }
-  .container {
-    width: 50%;
-    max-width: 402px;
-    margin: 0 auto;
-    border: 1px solid red;
-  }
+    .wrap {
+        width: 50%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
 
-  .flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
-  input[type="text"],
-  input[type="password"],
-  input[type="email"],
-  input[type="tel"] {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 5px;
-  }
+    fieldset:first-of-type .field-type1,
+    fieldset:first-of-type .field-type2 {
+        padding: .5em;
+    }
 
-  label[for="city"] {
-    padding-right: 54px;
-  }
+    li:nth-of-type(2n+1) {
+        width: 30%;
+        line-height: 32.094px;
+    }
 
-  label[for="state"],
-  label[for="zip"] {
-    padding-right: 30px;
-  }
-
-  label[for="zip"] {
-    margin-left: 34px;
-  }
-
-  
-
-  select {
-    width: 94%;
-    padding-right: 40px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 85%;
-  }
-
-  fieldset:first-of-type label {
-    margin-top: 14px;
-  }
-
-  ::placeholder {
-    font-size: 85%;
-  }
+    li:nth-of-type(2n+2) {
+        width: 70%;
+    }
 }
