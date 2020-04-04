@@ -5,6 +5,10 @@ body {
     color: #672d1e;
 }
 
+form {
+    background-color: #e0d2cb;
+}
+
 h1 {
     background: #672d1e;
     color: white;
