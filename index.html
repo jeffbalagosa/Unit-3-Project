@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <title>Newsletter Form</title>
 </head>
 
@@ -15,20 +15,20 @@
 
     <header>
         <h1>The Code Review</h1>
-        <div class="rl-match container">
+        <div>
             <h2>Sign Up For Our Newsletter</h2>
             <p>Get the latest news on how your code is doing right in your inbox</p>
             <hr>
         </div>
     </header>
 
-    <div class="container">
+    <div>
 
         <form>
-            <fieldset class="bottom-border">
-
+            <fieldset>
+                
                 <legend>Contact Information</legend>
-                <ul class="flex">
+                <ul>
                     <li><label for="name">Full Name</label></li>
                     <li><input type="text" id="name" name="user_name" placeholder="Required"></li>
                     <li><label for="email">Email Address</label></li>
@@ -101,7 +101,9 @@
                     <li><input type="text" id="zip" name="user_zip"></li>
                 </ul>
             </fieldset>
-            <fieldset class="clear-borders">
+            <hr>
+            <fieldset>
+                
                 <legend>Newsletter</legend>
 
                 <label>Select the newsletters you'd like to receive</label><br>
@@ -121,7 +123,7 @@
                 <textarea id="other" name="interest_other"></textarea>
             </fieldset>
 
-            <div class="center">
+            <div>
                 <button type="submit">Sign Up!</button>
             </div>
 
