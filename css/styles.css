@@ -118,6 +118,19 @@ fieldset {
     border: 0;
 }
 
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;  
+}
+::-moz-placeholder {
+  font-style: italic;  
+}
+:-ms-input-placeholder {  
+  font-style: italic; 
+}
+
 /* Media Query --------------*/
 @media (min-width: 768px) {
     .wrap {
