@@ -138,6 +138,13 @@ fieldset:last-of-type label:last-of-type {
   margin-top: 1em;
 }
 
+input[id="zip"] {
+  width: 102px;
+  margin-right: 118px;
+  padding-right: 10px;
+  padding-left: 25px;
+}
+
 /* place this class in a parent to center children.  Also make sure children are set to inline-block. --------------*/
 .center {
   text-align: center;
@@ -162,7 +169,7 @@ fieldset {
   }
   .container {
     width: 50%;
-    max-width: 408px;
+    max-width: 402px;
     margin: 0 auto;
     border: 1px solid red;
   }
@@ -179,7 +186,7 @@ fieldset {
   input[type="tel"] {
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 0;
+    padding-left: 5px;
   }
 
   label[for="city"] {
@@ -191,6 +198,8 @@ fieldset {
     padding-right: 30px;
   }
 
+  
+
   select {
     width: 94%;
     padding-right: 40px;
@@ -200,5 +209,9 @@ fieldset {
 
   fieldset:first-of-type label {
     margin-top: 14px;
+  }
+
+  ::placeholder {
+    font-size: 85%;
   }
 }
