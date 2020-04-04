@@ -57,7 +57,7 @@ textarea:focus {
 
 ::placeholder {
     text-align: right;
-    color: darkslategray;
+    color: lightgray;
 }
 
 .label-spacing {
@@ -74,7 +74,12 @@ textarea {
     border: 0;
     outline: 0;
     padding: 15px;
-    background-color: darkgray;
+    background-color: darkblue;
     color: white;
     border-radius: 5px;
+}
+
+/* Media Query --------------*/
+@media (min-width: 768px) {
+
 }
