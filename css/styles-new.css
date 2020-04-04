@@ -75,6 +75,10 @@ textarea:focus {
     color: lightgray;
 }
 
+textarea::placeholder {
+    line-height: 34px;
+}
+
 .field-spacing {
     margin-bottom: 1em;
 }
