@@ -10,19 +10,20 @@
     <link rel="stylesheet" href="css/styles-new.css">
     <title>Newsletter Form</title>
 </head>
+
 <body>
     <header>
         <h1>The Code Review</h1>
-        <fieldset>
+        <fieldset class="wrap">
             <h2>Signup For Our Newsletter</h2>
             <p>Get the latest news on how your code is doing right in your inbox</p>
             <hr>
         </fieldset>
     </header>
-    <form>
-        <fieldset>
+    <form class="wrap">
+        <fieldset class="fieldset1">
             <legend>Contact Information</legend>
-            <ul>
+            <ul class="flex">
                 <li>
                     <label for="name">Full Name</label>
                 </li>
@@ -129,35 +130,40 @@
                     <label>Select the newsletters you'd like to receive</label><br>
                 </div>
                 <div class="label-spacing">
-                    <input type="checkbox" id="html" value="interest_html" name="user_interest"><label for="html">HTML News</label><br>
+                    <input type="checkbox" id="html" value="interest_html" name="user_interest"><label for="html">HTML
+                        News</label><br>
                 </div>
                 <div class="label-spacing">
-                    <input type="checkbox" id="css" value="interest_css" name="user_interest"><label for="css">CSS News</label><br>
+                    <input type="checkbox" id="css" value="interest_css" name="user_interest"><label for="css">CSS
+                        News</label><br>
                 </div>
                 <div class="label-spacing">
-                    <input type="checkbox" id="javascript" value="interest_javascript" name="user_interest"><label for="javascript">Javascript News</label><br>
+                    <input type="checkbox" id="javascript" value="interest_javascript" name="user_interest"><label
+                        for="javascript">Javascript News</label><br>
                 </div>
             </div>
             <div class="field-spacing">
-               <div class="label-spacing">
-                   <label>Newsletter Format</label><br>
-            </div>
                 <div class="label-spacing">
-                    <input type="radio" id="html-email" value="html_format" name="user_email_pref"><label for="html-email">HTML</label><br>
+                    <label>Newsletter Format</label><br>
                 </div>
                 <div class="label-spacing">
-                    <input type="radio" id="ptext-email" value="ptext_format" name="user_email_pref"><label for="ptext-email">Plain Text</label><br>
+                    <input type="radio" id="html-email" value="html_format" name="user_email_pref"><label
+                        for="html-email">HTML</label><br>
+                </div>
+                <div class="label-spacing">
+                    <input type="radio" id="ptext-email" value="ptext_format" name="user_email_pref"><label
+                        for="ptext-email">Plain Text</label><br>
                 </div>
             </div>
-                <div class="field-spacing">
-                    <div class="label-spacing">
-                        <label for="other">Other topics you'd like to hear about</label>
-                    </div>
-                    <textarea class="field-type1" id="other" name="interest_other"></textarea>
+            <div class="field-spacing">
+                <div class="label-spacing">
+                    <label for="other">Other topics you'd like to hear about</label>
                 </div>
-                <div>
-                    <button class="field-type1" type="submit">Sign Up!</button>
-                </div>
+                <textarea class="field-type1" id="other" name="interest_other"></textarea>
+            </div>
+            <div>
+                <button class="field-type1" type="submit">Sign Up!</button>
+            </div>
             </div>
         </fieldset>
     </form>

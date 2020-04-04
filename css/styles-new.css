@@ -106,4 +106,29 @@ legend {
 }
 
 /* Media Query --------------*/
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .wrap {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    fieldset:first-of-type .field-type1,
+    fieldset:first-of-type .field-type2 {
+        padding: .5em;
+    }
+
+    li:nth-of-type(2n+1) {
+        width: 30%;
+        line-height: 32.094px;
+    }
+
+    li:nth-of-type(2n+2) {
+        width: 70%;
+    }
+}
